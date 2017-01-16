@@ -1,0 +1,34 @@
+{
+  "name": "Glintt.Operations.Manger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch src --exec babel-node -- src/index.js",
+    "db:migrate": "C:/Users/jfranco/AppData/Roaming/npm/knex migrate:latest --knexfile ./src/knexfile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "axios": "0.13.1",
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.15.2",
+    "bookshelf": "^0.10.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.2.1",
+    "knex": "^0.12.6",
+    "lodash": "^4.17.4",
+    "mysql": "^2.12.0",
+    "node-gyp": "^3.5.0",
+    "pg": "^6.1.2",
+    "shortid": "^2.2.6",
+    "validator": "^6.2.1"
+  }
+}
