@@ -1,0 +1,21 @@
+{
+    "apps": [
+        {
+            "name": "GOperations.Manager.server",
+            "script": "./src/index.js",
+            "args": [
+                "--port",
+                "8081"
+            ],
+            "watch": [
+                "./src"
+            ],
+            "exec_interpreter": "./node_modules/.bin/babel-node",
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "autorestart": false,
+            "restart_delay": 1000
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+
+> Glintt.Operations.Manager.Server@1.0.0 startProd D:\Jaime\Project\GOperations.Manager\server
+> nodemon --watch src --exec babel-node -- src/index.js
+
+[33m[nodemon] 1.11.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: D:\Jaime\Project\GOperations.Manager\server\src/**/*[39m
+[32m[nodemon] starting `babel-node src/index.js`[39m
+Running on localhost:8081
+Terminate batch job (Y/N)? 
