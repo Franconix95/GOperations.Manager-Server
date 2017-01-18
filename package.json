@@ -6,10 +6,12 @@
   "scripts": {
     "startOLD": "nodemon --watch src --exec babel-node -- src/index.js",
     "start": "nodemon lib/index.js --exec babel-node",
-    "copyToLib": "xcopy ./src ./lib /s /e",
+    "copyToLib": "xcopy src lib /s /e /Y",
     "build": "babel lib -d dist",
     "serve": "pm2 start dist/index.js --name Glintt.Operations.Manager.Server",
-    "stop": "pm2 delete Glintt.Operations.Manager.Server",
+    "stop": "pm2 stop --silent Glintt.Operations.Manager.Server",
+    "restart": "pm2 restart --silent Glintt.Operations.Manager.Server",
+    "delete": "pm2 delete --silent Glintt.Operations.Manager.Server",
     "db:migrate": "C:/Users/jfranco/AppData/Roaming/npm/knex migrate:latest --knexfile ./src/knexfile.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
