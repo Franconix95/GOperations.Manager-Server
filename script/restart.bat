@@ -1,1 +1,1 @@
-pm2 stop Glintt.Operations.Manager.Server > isRunning.txt
+pm2 stop Glintt.Operations.Manager.Server >> err.log

@@ -8,7 +8,7 @@
     "start": "nodemon lib/index.js --exec babel-node",
     "copyToLib": "xcopy src lib /s /e /Y",
     "build": "babel lib -d dist",
-    "serve": "pm2 start dist/index.js --name Glintt.Operations.Manager.Server",
+    "serve": "pm2 start --silent dist/index.js --name Glintt.Operations.Manager.Server",
     "stop": "pm2 stop --silent Glintt.Operations.Manager.Server",
     "restart": "pm2 restart --silent Glintt.Operations.Manager.Server",
     "delete": "pm2 delete --silent Glintt.Operations.Manager.Server",

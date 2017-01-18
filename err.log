@@ -1,3 +1,5 @@
+
+D:\Jaime\Project\GOperations.Manager\server>pm2 stop Glintt.Operations.Manager.Server  1>isRunning.txt 
 ┌──────────┬────┬──────┬─────┬────────┬─────────┬────────┬─────┬─────┬──────────┐
 │ App name │ id │ mode │ pid │ status │ restart │ uptime │ cpu │ mem │ watching │
 └──────────┴────┴──────┴─────┴────────┴─────────┴────────┴─────┴─────┴──────────┘
